@@ -1,0 +1,58 @@
+# ========== 기본 Unity 관련 파일 ==========
+# 라이브러리 폴더 (컴파일된 에셋과 임시 파일들)
+[Ll]ibrary/
+# Unity의 임시 캐시 파일 (에디터와 런타임 데이터)
+[Tt]emp/
+# 빌드 결과물 (불필요한 실행 파일 포함)
+[Bb]uild/
+[Bb]uilds/
+# 오브젝트 데이터를 캐싱하는 폴더
+[Oo]bj/
+# .NET 어셈블리 캐시 (컴파일된 .cs 파일 포함)
+[Mm]emoryCaptures/
+
+# ========== Unity 설정 관련 파일 ==========
+# Unity가 생성하는 로컬 설정 파일 (개인 설정이므로 공유할 필요 없음)
+*.swp
+*.swo
+*.bak
+[Uu]serSettings/
+# Visual Studio, JetBrains Rider 등 IDE 관련 설정 파일
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# ========== Unity 패키지 관련 파일 ==========
+# Unity Package Manager가 관리하는 패키지 캐시 폴더
+[Pp]ackages/*/
+# Unity Hub 및 Editor 관련 임시 파일
+*[Uu]nityGenerated*
+
+# ========== 운영체제 및 기타 파일 ==========
+# MacOS의 숨김 파일
+.DS_Store
+# Windows thumbnail 캐시
+Thumbs.db
+# Linux 파일 시스템 관련 파일
+*.~lock
+# 로그 파일
+*.log
+# Git이 자동으로 생성하는 파일 (리베이스 중 생기는 파일 포함)
+*.orig
+# JetBrains Rider 캐시 폴더
+.idea/
+
+# ========== Play Mode 및 빌드 관련 ==========
+# 빌드 및 플레이 모드에서 자동 생성되는 폴더
+/[Aa]ssets/[Aa]ddressable[Aa]sset[Dd]ata/*
+/[Bb]uilds/
