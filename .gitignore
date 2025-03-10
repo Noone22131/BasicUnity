@@ -1,15 +1,16 @@
 # ========== 기본 Unity 관련 파일 ==========
 # 라이브러리 폴더 (컴파일된 에셋과 임시 파일들)
-[Ll]ibrary/
+**/[Ll]ibrary/
 # Unity의 임시 캐시 파일 (에디터와 런타임 데이터)
-[Tt]emp/
+**/[Tt]emp/
 # 빌드 결과물 (불필요한 실행 파일 포함)
-[Bb]uild/
-[Bb]uilds/
+**/[Bb]uild/
+**/[Bb]uilds/
 # 오브젝트 데이터를 캐싱하는 폴더
-[Oo]bj/
+**/[Oo]bj/
 # .NET 어셈블리 캐시 (컴파일된 .cs 파일 포함)
-[Mm]emoryCaptures/
+**/[Mm]emoryCaptures/
+**/[Uu]ser[Ss]ettings/
 
 # ========== Unity 설정 관련 파일 ==========
 # Unity가 생성하는 로컬 설정 파일 (개인 설정이므로 공유할 필요 없음)
